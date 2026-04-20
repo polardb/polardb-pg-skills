@@ -14,7 +14,10 @@ polardb-pg-skills/
 │   ├── routine-check/         # 日常巡检
 │   │   ├── SKILL.md
 │   │   └── queries/
-│   └── performance-tuning/    # 性能调优
+│   ├── performance-tuning/    # 性能调优
+│   │   ├── SKILL.md
+│   │   └── queries/
+│   └── polardb-pg-gawr/       # GAWR 历史监控数据分析
 │       ├── SKILL.md
 │       └── queries/
 ├── shared/                    # 共享资源
@@ -62,6 +65,7 @@ prerequisites:
 |------|------|------|
 | routine-check | 日常巡检、健康检查 | ✅ 可用 |
 | performance-tuning | 性能调优、SQL优化 | 🚧 开发中 |
+| polardb-pg-gawr | GAWR 历史监控数据分析，基于 polar_gawr_collection 历史时序数据 | ✅ 可用 |
 
 ## Adding New Skills
 
